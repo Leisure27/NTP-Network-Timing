@@ -2,10 +2,10 @@
 
 #include <ESP8266WiFi.h>
 #include <NTPClient.h>
-#include <WiFiUdp.h>
+#include <WiFiUdp.h> 
 
-const char *ssid = "leisure";
-const char *password = "shadow27";
+const char *ssid = "***";
+const char *password = "****";
 
 const long utcOffsetInSeconds = 28800; // 时区偏移量（以秒为单位），3600*8，偏移8个小时
 WiFiUDP ntpUDP;
